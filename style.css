@@ -1,0 +1,6 @@
+#canvasBoard{
+  border: 5px solid green;
+}
+#gameStatus{
+  display: inline;
+}
