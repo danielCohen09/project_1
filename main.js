@@ -1,6 +1,7 @@
 let canvasBoard = document.getElementById('canvasBoard');
 let gameStatus = document.getElementById('gameStatus');
 let restartPara = document.getElementById('restartPara');
+let score = document.getElementById('score');
 let cellSize = 30;
 let rows = 20;
 let cols = 20;
@@ -65,6 +66,7 @@ function render(){
       return gameOver = true;
     }
   }
+  score.innerHTML = "Score- " + snakeBody.length;
 
 }
 
